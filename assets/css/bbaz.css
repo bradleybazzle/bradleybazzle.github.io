@@ -1,14 +1,25 @@
 /* Home page */
 img#bbaz-photo {
 	height:286px;
-/*
-	height:230px;
-	width:230px;
-	*/
 	border-radius: 5px;
 }
 
 #heading-name {
 	margin-top: 0;
 	line-height: 1;
+}
+
+.title {
+	font-size: 125%;
+	font-weight: 700;
+	color: #000000;
+}
+
+.praise-title {
+	font-style: italic;
+}
+
+span.reviewer {
+	display: inline-block;
+	text-indent: 50px;
 }
