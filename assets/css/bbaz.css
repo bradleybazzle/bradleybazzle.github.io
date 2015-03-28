@@ -1,0 +1,14 @@
+/* Home page */
+img#bbaz-photo {
+	height:286px;
+/*
+	height:230px;
+	width:230px;
+	*/
+	border-radius: 5px;
+}
+
+#heading-name {
+	margin-top: 0;
+	line-height: 1;
+}
