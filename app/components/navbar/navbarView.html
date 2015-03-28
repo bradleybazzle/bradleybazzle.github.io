@@ -1,0 +1,34 @@
+<nav class="navbar navbar-default navbar-static-top">
+	<div class="container" data-ng-controller="navbarController">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Bradley Bazzle</a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li ng-class="{ active : isSelected('about') }">
+					<a href="#about" data-ng-click="setSelection('about')">About</a>
+				</li>
+				<li ng-class="{ active : isSelected('stories') }">
+					<a href="#stories" data-ng-click="setSelection('stories')">Stories</a>
+				</li>
+				<li ng-class="{ active : isSelected('other') }">
+					<a href="#other" data-ng-click="setSelection('other')">Other</a>
+				</li>
+				<li ng-class="{ active : isSelected('press') }">
+					<a href="#press" data-ng-click="setSelection('press')">Press</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li ng-class="{ active : isSelected('contact') }">
+					<a href="#contact" data-ng-click="setSelection('contact')">Contact</a>
+				</li>
+			</ul>
+		</div><!--/.nav-collapse -->
+	</div>
+</nav>
