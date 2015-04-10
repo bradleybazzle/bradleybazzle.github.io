@@ -1,5 +1,14 @@
+/* Full site */
+body {
+	font-family: 'Lato', sans-serif;
+}
+
 /* Home page */
-img#bbaz-photo {
+#header-title {
+	color: #fff;
+	padding-left: 15px;
+}
+#bbaz-photo {
 	height:286px;
 	border-radius: 5px;
 }
@@ -7,20 +16,20 @@ img#bbaz-photo {
 #heading-name {
 	margin-top: 0;
 	line-height: 1;
-	font-family: 'Lobster', cursive;
+	/*font-family: 'Lobster', cursive;*/
 }
 
 .title {
 	font-size: 125%;
 	font-weight: 700;
-	color: #000000;
+	/*color: #000000;*/
 }
 
 .praise-title {
 	font-style: italic;
 }
 
-span.reviewer {
+.reviewer {
 	display: inline-block;
 	text-indent: 50px;
 }
