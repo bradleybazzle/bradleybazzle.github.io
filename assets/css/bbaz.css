@@ -5,12 +5,22 @@ body {
 
 /* Navbar */
 .navbar {
-  background-image: url('../images/forest-enchanted-1920x1080.jpg');
+  background-image: url('../images/blade-of-grass-1920x1080.jpg');
   background-repeat: no-repeat;
 }
 
 #navbar a {
 	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #000;
 }
 
 /* Home page */
