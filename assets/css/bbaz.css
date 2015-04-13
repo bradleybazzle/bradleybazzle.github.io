@@ -7,6 +7,7 @@ body {
 .navbar {
   background-image: url('../images/blade-of-grass-1920x1080.jpg');
   background-repeat: no-repeat;
+  font-size: 125%;
 }
 
 #navbar a {
@@ -20,7 +21,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #000;
+  color: #0f0;
 }
 
 /* Home page */
@@ -28,15 +29,15 @@ body {
 	color: #fff;
 	padding-left: 15px;
 }
+
 #bbaz-photo {
-	height:286px;
-	border-radius: 5px;
+	width: 260px;
+	height: auto;
+	/*border-radius: 5px;*/
 }
 
-#heading-name {
-	margin-top: 0;
-	line-height: 1;
-	/*font-family: 'Lobster', cursive;*/
+#about-content {
+	font-size: 150%;
 }
 
 .title {
@@ -52,4 +53,15 @@ body {
 .reviewer {
 	display: inline-block;
 	text-indent: 50px;
+}
+
+
+/* Media queries */
+/* 992px */
+@media only screen and (max-width: 1200px) {
+
+	#bbaz-photo {
+		width: 212px;
+	}
+	
 }
