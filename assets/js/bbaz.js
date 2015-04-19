@@ -1,16 +1,17 @@
 $(document)
-/*
-.on("click", "#magellan-img", function() {
-  console.log("image clicked");
-})
-*/
 .on("mouseenter", "#magellan-img", function() {
-  console.log("image entered");
+	//console.log("image entered");
 	$('#magellan-item').animate({backgroundColor: "#80FF80"}, 'slow');
-	//$('#magellan-item').css('background-color', 'LightGreen');
 })
 .on("mouseleave", "#magellan-img", function() {
-  console.log("image exited");
+	//console.log("image exited");
 	$('#magellan-item').animate({backgroundColor: "#fff"}, 'slow');
-	//$('#magellan-item').css('background-color', 'White');
+})
+.on("mouseenter", "#beast-yucca-flats-img", function() {
+	//console.log("image entered");
+	$('#beast-yucca-flats-item').animate({backgroundColor: "#80FF80"}, 'slow');
+})
+.on("mouseleave", "#beast-yucca-flats-img", function() {
+	//console.log("image exited");
+	$('#beast-yucca-flats-item').animate({backgroundColor: "#fff"}, 'slow');
 });
