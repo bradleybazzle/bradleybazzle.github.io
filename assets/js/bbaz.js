@@ -1,12 +1,16 @@
 $(document)
+/*
 .on("click", "#magellan-img", function() {
   console.log("image clicked");
 })
+*/
 .on("mouseenter", "#magellan-img", function() {
   console.log("image entered");
-	$('#magellan-item').css('background-color', 'LightGreen');
+	$('#magellan-item').animate({backgroundColor: "#80FF80"}, 'slow');
+	//$('#magellan-item').css('background-color', 'LightGreen');
 })
 .on("mouseleave", "#magellan-img", function() {
   console.log("image exited");
-	$('#magellan-item').css('background-color', 'White');
+	$('#magellan-item').animate({backgroundColor: "#fff"}, 'slow');
+	//$('#magellan-item').css('background-color', 'White');
 });
