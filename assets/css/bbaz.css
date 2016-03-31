@@ -91,13 +91,14 @@ body {
   color: #ff0808;
 }
 
-.greenBg-add, .greenBg-remove {
-  transition: background-color 2000ms linear;
+.magellan-item,
+.beast-item {
+  transition: background-color 500ms linear;
 }
 
-.greenBg,
-.greenBg-add.greenBg-add-active {
-    background-color: #80ff80;
+.magellan-item.magellan-bg-color,
+.beast-item.beast-bg-color {
+  background-color: #80ff80;
 }
 
 
