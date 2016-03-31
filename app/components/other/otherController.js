@@ -1,11 +1,12 @@
 bBazApp.controller('otherController', ['$scope', function($scope) {
+  $scope.otherBgClass = "";
 
   $scope.onMouseEnterBeastImg = function() {
     //console.log("onMouseEnterBeastImg");
-    $('#beast-yucca-flats-item').animate({backgroundColor: "#80FF80"}, 'slow');
+    $scope.otherBgClass = "greenBg";
   }
 
   $scope.onMouseLeaveBeastImg = function() {
-    $('#beast-yucca-flats-item').animate({backgroundColor: "#fff"}, 'slow');
+    $scope.otherBgClass = "";
   }
 }]);
