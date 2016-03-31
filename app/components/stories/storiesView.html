@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" data-ng-controller="storiesController">
 	<h1>STORIES</h1>
 	<br />
 
@@ -104,7 +104,8 @@
 		</div>
 		
 		<div class="col-md-6 col-md-offset-1">
-			<img id="magellan-img" src="/assets/images/magellan-480x437.jpg" width="480" height="437">
+			<img id="magellan-img" src="/assets/images/magellan-480x437.jpg" width="480" height="437"
+      data-ng-mouseenter="onMouseEnterMagellanImg()" data-ng-mouseleave="onMouseLeaveMagellanImg()">
 		</div>
 	</div><!-- row -->
 </div><!-- .container -->

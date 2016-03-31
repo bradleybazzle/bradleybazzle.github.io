@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" data-ng-controller="otherController">
 	<h1>OTHER</h1>
 	<br />
 
@@ -34,7 +34,8 @@
 		</div>
 
 		<div class="col-md-6">
-			<img id="beast-yucca-flats-img" src="/assets/images/beast-yucca-flats-400x278.jpg" width="480" height="437">
+			<img id="beast-yucca-flats-img" src="/assets/images/beast-yucca-flats-400x278.jpg" width="480" height="437"
+      data-ng-mouseenter="onMouseEnterBeastImg()" data-ng-mouseleave="onMouseLeaveBeastImg()">
 		</div>
 	</div><!-- .row -->
 </div><!-- .container -->
