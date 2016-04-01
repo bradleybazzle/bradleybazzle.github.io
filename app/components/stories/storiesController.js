@@ -1,6 +1,5 @@
 bBazApp.controller('storiesController', ['$scope', function($scope) {
   //console.log("Hello from 'storiesController'");
-  //$scope.magellanClass = "";
   $scope.paraClasses = {
     magellanItem: "true",
     animateBgColor: ""
@@ -17,4 +16,5 @@ bBazApp.controller('storiesController', ['$scope', function($scope) {
     //$scope.magellanClass = "";
     $scope.paraClasses.animateBgColor = "";
   }
+
 }]);
