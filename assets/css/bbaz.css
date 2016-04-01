@@ -91,12 +91,12 @@ body {
   color: #ff0808;
 }
 
-.magellan-item,
+.magellanItem,
 .beast-item {
   transition: background-color 500ms linear;
 }
 
-.magellan-item.magellan-bg-color,
+.magellanItem.animateBgColor,
 .beast-item.beast-bg-color {
   background-color: #80ff80;
 }
