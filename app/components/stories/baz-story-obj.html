@@ -1,0 +1,11 @@
+<p data-ng-class="story.paraClasses">
+<span class="title">{{ story.title }}</span>
+<br />
+<i>{{ story.publication }}</i>,&nbsp
+<span data-ng-class="{'forthcoming': !story.issue}">{{ story.issue ? story.issue : 'forthcoming' }}</span>
+<a data-ng-show="story.url" href="{{ story.url }}" target="_BLANK">online</a>
+<span data-ng-show="story.note">
+<br />{{ story.note }}
+</span>
+</p>
+<br />
