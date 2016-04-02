@@ -9,7 +9,7 @@ bBazApp
       publication: '@',
       // if 'issue' is not included, the template displays 'forthcoming' with the .forthcoming class
       issue: '@',
-      online: '@',
+      url: '@',
       note: '@' 
     },
     templateUrl: 'app/components/stories/baz-story.html',
