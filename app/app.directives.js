@@ -1,24 +1,4 @@
 bBazApp
-.directive('bazStory', function() {
-  return {
-    restrict: 'E',
-    scope: {
-      pid: '@',
-      pClasses: '=',
-      title: '@',
-      publication: '@',
-      // if 'issue' is not included, the template displays 'forthcoming' with the .forthcoming class
-      issue: '@',
-      url: '@',
-      note: '@' 
-    },
-    templateUrl: 'app/components/stories/baz-story.html',
-    link: function(scope, elem, attrs) {
-      var pEl = elem.find('p');
-      pEl.attr('id' , scope.pid);
-    }
-  };
-})
 .directive('bazStoryObj', function() {
   return {
     restrict: 'E',
@@ -30,5 +10,14 @@ bBazApp
       var pEl = elem.find('p');
       pEl.attr('id' , scope.story.pid);
     }
+  };
+})
+.directive('bazPressObj', function() {
+  return {
+    restrict: 'E',
+    scope: {
+      press: '=',
+    },
+    templateUrl: 'app/components/press/baz-press-obj.html'
   };
 });

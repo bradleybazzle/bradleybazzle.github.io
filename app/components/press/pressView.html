@@ -4,55 +4,9 @@
 
 	<div class="row">
 		<div class="col-md-6">
-			<!-- Curly double quotes entities: &ldquo; &rdquo; -->
-      <p>
-      <span class="title">Praise for &ldquo;Trash Mountain&rdquo;:</span>
-      <br />
-      "I felt the subversive, humorous spirit of Mark Twain in the story, Twain if he lived by a dump instead of a river. There's life on the page here—on every page."
-      <br />
-      <span class="reviewer">– Stuart Dybek</span>
-      <p>
-      <br />
-
-			<p>
-			<span class="title">Praise for &ldquo;Crimes of the Video Age&rdquo;:</span>
-			<br />
-			“Bazzle’s story is one of the finest I have ever read; it channels Bradbury to address serious social realities with a near Shakespearean scope. The story is very brisk, with humor and terror managed expertly.”
-			<br />
-			<span class="reviewer">– Mary Florio, 
-			<a href="http://www.newpages.com/item/5516-new-ohio-review" target="_BLANK">New Pages</a>
-			</span>
-			<p>
-			<br />
-
-			</p>
-			<span class="title">Praise for &ldquo;The Case Against Dr. Smetana&rdquo;:</span>
-			<br />
-			“…fanciful, strange, and absurd”<br />
-			<span class="reviewer">– David Backer, 
-			<a href="http://fictiondaily.org/2012/06/15/long-621/" target="_BLANK">Fiction Daily</a>
-			</span>
-			<p>
-			<br />
-
-			</p>
-			<span class="title">Praise for &ldquo;Magellan&rdquo;:</span>
-			<br />
-			“…a creative meditation on what is contained and what is erased from the historical record”<br />
-			<span class="reviewer">– Shannon Smith, 
-			<a href="http://www.newpages.com/item/4705-the-iowa-review" target="_BLANK">New Pages</a>
-			</span>
-			<p>
-			<br />
-
-			</p>
-			<span class="title">Praise for &ldquo;Magellan&rdquo;:</span>
-			<br />
-			“A delightful, alchemical mixture of realism and complete bullshit . . . the most thrilling story I read the entire year.”<br />
-			<span class="reviewer">– Bryan Castille, Fiction Editor, 
-			<a href="http://www.iowareview.org/blog/why-we%E2%80%99re-excited-publish%E2%80%A6%E2%80%9Cmagellan%E2%80%9D-bradley-bazzle" target="_BLANK">The Iowa Review</a>
-			</span>
-			</p>
+      <div data-ng-repeat="press in pressAry">
+        <baz-press-obj press="press"></baz-press-obj>
+      </div>
 		</div>
     <div class="col-md-6">
     </div>

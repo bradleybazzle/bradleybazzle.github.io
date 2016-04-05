@@ -5,6 +5,18 @@ bBazApp
     // the order of story properties created here was not maintained by ng-repeat.
     // JavaScript does not support associative arrays.
     var stories = [
+  /*
+    {
+      title: "",
+      publication: "",
+      issue: "",
+      type: "",
+      url: "",
+      note: "",
+      pClasses: {
+      }
+    },
+  */
       {
         title: "In the Presence of the Actor",
         publication: "Copper Nickel"
@@ -82,6 +94,12 @@ bBazApp
       }
     ];
 
+    return stories;
+  }
+
+})
+.service("othersService", function() {
+  this.getOthers = function() {
   /*
     {
       title: "",
@@ -94,13 +112,6 @@ bBazApp
       }
     },
   */
-
-    return stories;
-  }
-
-})
-.service("othersService", function() {
-  this.getOthers = function() {
     var others = [
       {
         title: "Flag on the Moon: the Beast of Yucca Flats",
@@ -137,4 +148,54 @@ bBazApp
     return others;
   }
 
+})
+.service("pressService", function() {
+  this.getPressAry = function() {
+    var pressAry = [
+    /*
+      {
+        title: "",
+        quote: "",
+        reviewer: "",
+        url: "",
+        publication: ""
+      },
+    */
+      {
+        title: "Trash Mountain",
+        quote: "I felt the subversive, humorous spirit of Mark Twain in the story, Twain if he lived by a dump instead of a river. There's life on the page here—on every page.",
+        reviewer: "Stuart Dybek"
+      },
+      {
+        title: "Crimes of the Video Age",
+        quote: "Bazzle’s story is one of the finest I have ever read; it channels Bradbury to address serious social realities with a near Shakespearean scope. The story is very brisk, with humor and terror managed expertly.",
+        reviewer: "Mary Florio",
+        url: "http://www.newpages.com/item/5516-new-ohio-review",
+        publication: "New Pages"
+      },
+      {
+        title: "The Case Against Dr. Smetana",
+        quote: "…fanciful, strange, and absurd",
+        reviewer: "David Backer",
+        url: "http://fictiondaily.org/2012/06/15/long-621/",
+        publication: "Fiction Daily"
+      },
+      {
+        title: "Magellan",
+        quote: "…a creative meditation on what is contained and what is erased from the historical record",
+        reviewer: "Shannon Smith",
+        url: "http://www.newpages.com/item/4705-the-iowa-review",
+        publication: "New Pages"
+      },
+      {
+        title: "Magellan",
+        quote: "A delightful, alchemical mixture of realism and complete bullshit . . . the most thrilling story I read the entire year.",
+        reviewer: "Bryan Castille, Fiction Editor",
+        url: "http://www.iowareview.org/blog/why-we%E2%80%99re-excited-publish%E2%80%A6%E2%80%9Cmagellan%E2%80%9D-bradley-bazzle",
+        publication: "The Iowa Review"
+      }
+    ];
+
+    return pressAry;
+  }
 });

@@ -1,1 +1,3 @@
-bBazApp.controller('pressController', ['$scope', function($scope) {}]);
+bBazApp.controller('pressController', ['$scope', 'pressService', function($scope, pressService) {
+  $scope.pressAry = pressService.getPressAry();
+}]);
