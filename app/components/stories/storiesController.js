@@ -5,12 +5,12 @@ bBazApp.controller('storiesController', ['$scope', 'storiesService', function($s
 
   $scope.onMouseEnterMagellanImg = function() {
     //console.log("Entered Magellan image");
-    $scope.stories[8].paraClasses.animateBgColor = "true";
+    $scope.stories[8].pClasses.animateBgColor = "true";
   }
 
   $scope.onMouseLeaveMagellanImg = function() {
     //console.log("Left Magellan image");
-    $scope.stories[8].paraClasses.animateBgColor = "";
+    $scope.stories[8].pClasses.animateBgColor = "";
   }
 
 }]);

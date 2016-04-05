@@ -4,7 +4,7 @@ bBazApp
     restrict: 'E',
     scope: {
       pid: '@',
-      paraClasses: '=',
+      pClasses: '=',
       title: '@',
       publication: '@',
       // if 'issue' is not included, the template displays 'forthcoming' with the .forthcoming class

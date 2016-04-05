@@ -81,7 +81,7 @@ body {
 
 /* Miscellaneous */
 #magellan-item,
-#beast-yucca-flats-item {
+#beast-item {
 	margin-left: -15px;
 	padding-left: 15px;
 	border-radius: 4px;
@@ -92,12 +92,12 @@ body {
 }
 
 .magellanItem,
-.beast-item {
+.beastItem {
   transition: background-color 500ms linear;
 }
 
 .magellanItem.animateBgColor,
-.beast-item.beast-bg-color {
+.beastItem.animateBgColor {
   background-color: #80ff80;
 }
 
