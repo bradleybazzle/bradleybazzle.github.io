@@ -14,7 +14,14 @@ bBazApp.config(function($routeProvider) {
 		})
 		.when('/press', {
 			templateUrl : 'app/components/press/pressView.html',
-			controller  : 'pressController'
+			controller  : 'pressController',
+      // 'resolve' is a map of dependencies injected into the controller
+      // See https://docs.angularjs.org/api/ngRoute/provider/$routeProvider
+      resolve: {
+        pressData: function(pressService) {
+          return pressService.getData();
+        }
+      }
 		})
 		.when('/contact', {
 			templateUrl : 'app/components/contact/contactView.html',

@@ -149,53 +149,45 @@ bBazApp
   }
 
 })
-.service("pressService", function() {
-  this.getPressAry = function() {
-    var pressAry = [
-    /*
-      {
-        title: "",
-        quote: "",
-        reviewer: "",
-        url: "",
-        publication: ""
-      },
-    */
-      {
-        title: "Trash Mountain",
-        quote: "I felt the subversive, humorous spirit of Mark Twain in the story, Twain if he lived by a dump instead of a river. There's life on the page here—on every page.",
-        reviewer: "Stuart Dybek"
-      },
-      {
-        title: "Crimes of the Video Age",
-        quote: "Bazzle’s story is one of the finest I have ever read; it channels Bradbury to address serious social realities with a near Shakespearean scope. The story is very brisk, with humor and terror managed expertly.",
-        reviewer: "Mary Florio",
-        url: "http://www.newpages.com/item/5516-new-ohio-review",
-        publication: "New Pages"
-      },
-      {
-        title: "The Case Against Dr. Smetana",
-        quote: "…fanciful, strange, and absurd",
-        reviewer: "David Backer",
-        url: "http://fictiondaily.org/2012/06/15/long-621/",
-        publication: "Fiction Daily"
-      },
-      {
-        title: "Magellan",
-        quote: "…a creative meditation on what is contained and what is erased from the historical record",
-        reviewer: "Shannon Smith",
-        url: "http://www.newpages.com/item/4705-the-iowa-review",
-        publication: "New Pages"
-      },
-      {
-        title: "Magellan",
-        quote: "A delightful, alchemical mixture of realism and complete bullshit . . . the most thrilling story I read the entire year.",
-        reviewer: "Bryan Castille, Fiction Editor",
-        url: "http://www.iowareview.org/blog/why-we%E2%80%99re-excited-publish%E2%80%A6%E2%80%9Cmagellan%E2%80%9D-bradley-bazzle",
-        publication: "The Iowa Review"
-      }
-    ];
+.factory("pressService", ['$http', function($http) {
+  return {
+    getData: function() {
+      var data = {};
+      var url = "app/components/press/press.json";
+      var config = {cache: true};
 
-    return pressAry;
+      var promise = $http.get(url, config);
+
+      return promise;
+    }
+  };
+  /* Template for adding new press object to JSON file
+    {
+      title: "",
+      quote: "",
+      reviewer: "",
+      url: "",
+      publication: ""
+    },
+  */
+}]);
+
+/*
+.service("testAjaxService", ['$http', function($http) {
+  this.getData = function() {
+    $http.get('app/components/press/press.json')
+    .then(function(response) {
+      // successCallback
+      console.log("testAjaxService.getAjax() SUCCESS");
+      console.log(response.data);
+    },
+    function(response) {
+      // errorCallback
+      console.log("testAjaxService.getAjax() FAILURE");
+      console.log("status: " + response.status);
+      console.log("statusText: " + response.statusText);
+    });
+
   }
-});
+}])
+*/
