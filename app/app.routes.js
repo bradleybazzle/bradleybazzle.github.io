@@ -6,7 +6,12 @@ bBazApp.config(function($routeProvider) {
 		})
 		.when('/stories', {
 			templateUrl : 'app/components/stories/storiesView.html',
-			controller  : 'storiesController'
+			controller  : 'storiesController',
+      resolve: {
+        storiesData: function(storiesService) {
+          return storiesService.getData();
+        }
+      }
 		})
 		.when('/other', {
 			templateUrl : 'app/components/other/otherView.html',
