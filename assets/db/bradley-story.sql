@@ -1,6 +1,4 @@
 /*
-NOTE: DROP and CREATE were not resetting the PK auto_increment value
-
 DROP TABLE IF EXISTS `restapi`.`story`;
 
 CREATE TABLE `restapi`.`story` (
@@ -12,7 +10,7 @@ CREATE TABLE `restapi`.`story` (
   `url` varchar(200) DEFAULT NULL,
   `note` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 */
 TRUNCATE TABLE `restapi`.`story`;
 
