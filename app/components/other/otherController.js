@@ -12,13 +12,4 @@ bBazApp.controller('otherController', ['$scope', 'otherData', function($scope, o
     console.log("response.status: " + otherData.status);
     console.log("response.statusText: " + otherData.statusText);
   }
-
-  $scope.onMouseEnterBeastImg = function() {
-    //console.log("onMouseEnterBeastImg");
-    $scope.otherData[0].pClasses.animateBgColor = "true";
-  }
-
-  $scope.onMouseLeaveBeastImg = function() {
-    $scope.otherData[0].pClasses.animateBgColor = "";
-  }
 }]);

@@ -80,25 +80,8 @@ body {
 
 
 /* Miscellaneous */
-#magellan-item,
-#beast-item {
-	margin-left: -15px;
-	padding-left: 15px;
-	border-radius: 4px;
-}
-
 .forthcoming {
   color: #ff0808;
-}
-
-.magellanItem,
-.beastItem {
-  transition: background-color 500ms linear;
-}
-
-.magellanItem.animateBgColor,
-.beastItem.animateBgColor {
-  background-color: #80ff80;
 }
 
 

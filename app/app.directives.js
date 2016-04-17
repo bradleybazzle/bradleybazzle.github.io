@@ -5,11 +5,7 @@ bBazApp
     scope: {
       story: '=',
     },
-    templateUrl: 'app/components/stories/baz-story-obj.html',
-    link: function(scope, elem, attrs) {
-      var pEl = elem.find('p');
-      pEl.attr('id' , scope.story.pid);
-    }
+    templateUrl: 'app/components/stories/baz-story-obj.html'
   };
 })
 .directive('bazPressObj', function() {
