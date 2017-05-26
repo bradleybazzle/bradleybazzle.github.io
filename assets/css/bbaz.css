@@ -53,10 +53,8 @@ body {
 	padding-left: 15px;
 }
 
-#bbaz-photo {
-	width: 360px;
-	height: auto;
-	/*border-radius: 5px;*/
+#bbaz-about-photo {
+	max-width: 100%;
 }
 
 #about-content {
