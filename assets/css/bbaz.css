@@ -57,7 +57,8 @@ body {
 	max-width: 100%;
 }
 
-#about-content {
+#about-content,
+#book-content  {
 	font-size: 150%;
 }
 
