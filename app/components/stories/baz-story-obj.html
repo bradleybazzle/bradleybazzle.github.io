@@ -1,12 +1,18 @@
 <p>
-<span class="title">{{ story.title }}</span>
+
+<span data-ng-hide="story.url" class="title">{{ story.title }}</span>
+
+<a data-ng-show="story.url" href="{{ story.url }}" target="_BLANK">
+	<span class="title">{{ story.title }}</span>
+</a>
+
 <br />
 <i>{{ story.publication }}</i>,&nbsp
 <span data-ng-class="{'forthcoming': !story.issue}">{{ story.issue ? story.issue : 'forthcoming' }}</span>
 <span data-ng-show="story.type" style="margin-left: 1em;">({{ story.type }})</span>
-<a data-ng-show="story.url" href="{{ story.url }}" target="_BLANK">online</a>
 <span data-ng-show="story.note">
 <br />{{ story.note }}
 </span>
+
 </p>
 <br />
