@@ -1,8 +1,44 @@
     [
       {
+        "title": "Review of 'Dog Years' by Melissa Yancy",
+        "publication": "Center for Literary Publishing"
+      },
+      {
+        "title": "Review of 'Of This New World' by Allegra Hyde",
+        "publication": "Center for Literary Publishing",
+        "issue": "(2017)",
+        "url": "http://coloradoreview.colostate.edu/reviews/of-this-new-world/"
+      },
+      {
+        "title": "Review of 'A Collapse of Horses' by Brian Evenson",
+        "publication": "Center for Literary Publishing",
+        "issue": "(2016)",
+        "url": "http://coloradoreview.colostate.edu/reviews/a-collapse-of-horses/"
+      },
+      {
+        "title": "Review of 'Pike and Bloom' by Matthew Nye",
+        "publication": "Center for Literary Publishing",
+        "issue": "(2016)",
+        "url": "http://coloradoreview.colostate.edu/reviews/pike-and-bloom/"
+      },
+      {
+        "title": "Graphene and Related Materials: A History & Notes on the Future",
+        "publication": "In PREVIEW (for a future catalog) by A Bad Penny Review",
+        "issue": "(2016)",
+        "type": "parody",
+        "url": "http://www.abadpennyreview.com/store/preview-for-a-future-catalog-vol-one/"
+      },
+      {
+        "title": "Gelatonic Monthly, Vol. 37, No. 11",
+        "publication": "A Bad Penny Review, 3.1",
+        "issue": "(2013)",
+        "type": "parody",
+        "url": "http://www.abadpennyreview.com/gelatonic-monthly/"
+      },
+      {
         "title": "Flag on the Moon: the Beast of Yucca Flats",
         "publication": "NER Digital",
-        "issue": "(June 21, 2012):",
+        "issue": "(June 21, 2012)",
         "type": "creative nonfiction",
         "url": "http://www.nereview.com/tag/the-beast-of-yucca-flats/"
       },
