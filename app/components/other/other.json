@@ -1,7 +1,9 @@
     [
       {
         "title": "Review of 'Dog Years' by Melissa Yancy",
-        "publication": "Center for Literary Publishing"
+        "publication": "Center for Literary Publishing",
+        "issue": "(2017)",
+        "url": "http://coloradoreview.colostate.edu/reviews/dog-years/"
       },
       {
         "title": "Review of 'Of This New World' by Allegra Hyde",
@@ -43,10 +45,9 @@
         "url": "http://www.nereview.com/tag/the-beast-of-yucca-flats/"
       },
       {
-        "title": "Maceo Montoya, The Scoundrel and the Optimist",
+        "title": "Review of 'The Scoundrel and the Optimist' by Maceo Montoya",
         "publication": "Indiana Review",
-        "issue": "32, No. 1 (Summer 2010): 176-177",
-        "type": "book review"
+        "issue": "32, No. 1 (Summer 2010): 176-177"
       },
       {
         "title": "The Paris Review Perspective",
