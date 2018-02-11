@@ -43,6 +43,6 @@ bBazApp.config(function($routeProvider) {
 			controller  : 'contactController'
 		})
 		.otherwise({
-			redirectTo: '/about'
+			redirectTo: '/book'
 		});
 });

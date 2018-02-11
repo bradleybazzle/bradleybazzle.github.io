@@ -10,7 +10,7 @@ bBazApp.controller('navbarController', ['$scope', function($scope) {
 	};
 
 	$scope.init = function() {
-		$scope.setSelection('about');
+		$scope.setSelection('book');
 	};
 
 	$scope.init();
