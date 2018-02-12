@@ -6,10 +6,16 @@ body {
 
 /* Navbar */
 .navbar {
+  background-color: #96362A;
+  font-size: 125%;
+}
+/*
+.navbar {
   background-image: url('../images/blade-of-grass-1920x1080.jpg');
   background-size: 100% auto;
   font-size: 125%;
 }
+*/
 
 #navbar a {
 	background-color: transparent;
@@ -22,8 +28,13 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
+  color: #f00;
+}
+/*
+.navbar-inverse .navbar-nav > li > a {
   color: #0f0;
 }
+*/
 
 /* Footer */
 .footer {
