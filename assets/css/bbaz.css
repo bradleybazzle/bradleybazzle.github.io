@@ -103,6 +103,11 @@ body {
 	margin-left: 4em;
 }
 
+#red-hen-logo {
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+
 
 /* Miscellaneous */
 .forthcoming {
@@ -115,6 +120,10 @@ body {
 
 .bolder-font {
 	font-weight: bolder;
+}
+
+.no-left-padding {
+	padding-left: 0;
 }
 
 
