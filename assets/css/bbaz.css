@@ -78,9 +78,32 @@ body {
 }
 
 
+/* Book view */
+#book-view .heading {
+	font-size: 1.25em;
+	font-weight: bolder;
+}
+
+#book-view .advance-praise {
+	margin-bottom: 0;
+}
+
+#book-view .praiser {
+	margin-left: 4em;
+}
+
+
 /* Miscellaneous */
 .forthcoming {
   color: #ff0808;
+}
+
+.oblique-font {
+	font-style: oblique;
+}
+
+.bolder-font {
+	font-weight: bolder;
 }
 
 
