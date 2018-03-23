@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #f00;
+  color: #ff4d4d;
 }
 /*
 .navbar-inverse .navbar-nav > li > a {
@@ -64,8 +64,16 @@ body {
 	padding-left: 15px;
 }
 
-#bbaz-about-photo {
+#bbaz-about-photo,
+#graphene-cover {
 	max-width: 100%;
+}
+
+#bbaz-about-photo-cropped {
+	max-width: 50%;
+	float: left;
+	margin-right: 1em;
+	display: none;
 }
 
 #about-content,
@@ -108,6 +116,11 @@ body {
 	margin-bottom: 1em;
 }
 
+#trash-mountain-cover {
+	width: 100%;
+	height: auto;
+}
+
 
 /* Miscellaneous */
 .forthcoming {
@@ -135,11 +148,36 @@ body {
 
 
 /* Media queries */
-/* 992px */
+/* 1200px */
 @media only screen and (max-width: 1200px) {
-
 	#bbaz-photo {
 		width: 293px;
 	}
-	
+}
+/* 992 */
+@media only screen and (max-width: 992px) {
+	#magellan-img,
+	#beast-yucca-flats-img,
+	#graphene-cover,
+	#bbaz-about-photo {
+		display: none;
+	}
+
+	#bbaz-about-photo-cropped {
+		display: inline-block;
+	}
+}
+/* 768px */
+@media only screen and (max-width: 768px) {
+	#trash-mountain-cover {
+		width: 50%;
+	}
+
+	#red-hen-logo {
+		max-width: 50%;
+	}
+
+	#magellan-img {
+		display: none;
+	}
 }
