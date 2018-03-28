@@ -131,6 +131,10 @@ body {
 	font-style: oblique;
 }
 
+.bold-font {
+	font-weight: bold;
+}
+
 .bolder-font {
 	font-weight: bolder;
 }
@@ -143,6 +147,10 @@ body {
 #other-view a,
 #press-view a
 {
+	color: #96362A;
+}
+
+.book-cover-red {
 	color: #96362A;
 }
 
