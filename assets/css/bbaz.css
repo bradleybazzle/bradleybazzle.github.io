@@ -139,13 +139,19 @@ body {
 	font-weight: bolder;
 }
 
+.big-bold-font {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
 .no-left-padding {
 	padding-left: 0;
 }
 
 #stories-view a,
 #other-view a,
-#press-view a
+#press-view a,
+#book-view a
 {
 	color: #96362A;
 }
