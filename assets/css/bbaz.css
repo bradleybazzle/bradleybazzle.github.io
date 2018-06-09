@@ -160,6 +160,14 @@ body {
 	color: #96362A;
 }
 
+#upcoming-events {
+	margin-top: 1em;
+}
+
+#upcoming-events a {
+	color: #3e5c9a;
+}
+
 
 /* Media queries */
 /* 1200px */
