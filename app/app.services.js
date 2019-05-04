@@ -16,16 +16,16 @@ bBazApp
   // JavaScript does not support associative arrays.
 
   /* Template for adding new Story object to JSON file
-    {
-      title: "",
-      publication: "",
-      issue: "",
-      type: "",
-      url: "",
-      note: "",
-      pClasses: {
-      }
-    },
+      {
+        "title": "",
+        "publication": "",
+        "issue": "",
+        "type": "",
+        "url": "",
+        "note": "",
+        "pClasses": {
+        }
+      },
   */
 }])
 .factory("otherService", ['$http', function($http) {
@@ -41,16 +41,16 @@ bBazApp
     }
   };
   /* Template for adding new Other object to JSON file
-    {
-      title: "",
-      publication: "",
-      issue: "",
-      type: "",
-      url: "",
-      note: "",
-      pClasses: {
-      }
-    },
+      {
+        "title": "",
+        "publication": "",
+        "issue": "",
+        "type": "",
+        "url": "",
+        "note": "",
+        "pClasses": {
+        }
+      },
   */
 }])
 .factory("pressService", ['$http', function($http) {
